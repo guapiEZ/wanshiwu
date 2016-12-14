@@ -1,0 +1,89 @@
+body {
+  background-color: #efeff4;
+  font-family: SimHei;
+  padding: 0;
+  margin: 0;
+}
+body .header {
+  display: flex;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e1e1;
+}
+body .header .icon-back {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 25%;
+}
+body .header .header_title {
+  flex: 1;
+  padding-right: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+body .header .title_color {
+  color: #ea5404;
+}
+.info_box {
+  border-top: 1px solid #d6d7dc;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+.info_box .info_img {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: url("../../img/info_index_03.png") no-repeat center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+.info_box .info_name {
+  text-align: center;
+  line-height: 24px;
+  font-size: 28px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+.info_box .info_desc {
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.info_box .info_edit {
+  width: 6em;
+  margin: 0 auto;
+  padding: 5px 14px;
+  border: 1px solid #ffa66b;
+  border-radius: 5px;
+  color: #ffa66b;
+  line-height: 30px;
+}
+.info-cells {
+  margin-top: 20px;
+  background-color: #fff;
+}
+.info-cells .info-cell {
+  display: flex;
+  padding: 0 15px;
+  line-height: 40px;
+  border-bottom: 1px solid #d6d7dc;
+}
+.info-cells .info-cell .info-name {
+  flex: 3;
+  font-size: 0.875em;
+}
+.info-cells .info-cell .info-content {
+  flex: 4;
+  text-indent: 10px;
+}
+.info-cells .image-cell {
+  display: flex;
+}
+.info-cells .image-cell .image-block {
+  flex: 1;
+}

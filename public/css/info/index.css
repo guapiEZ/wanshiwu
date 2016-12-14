@@ -1,0 +1,26 @@
+.md {
+  width: 0 atuo;
+  height: 500px;
+  background: #faebd7;
+}
+.md:after {
+  content: '0';
+}
+.md:before {
+  content: '1';
+}
+@media all and (min-width: 700px) {
+  body {
+    background: #000;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  body {
+    background: #f00;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    background: #7fffd4;
+  }
+}

@@ -1,0 +1,84 @@
+body {
+  background-color: #efeff4;
+  font-family: SimHei;
+}
+.tab_box {
+  height: 42px;
+  background-color: #fff;
+  padding-top: 8px;
+}
+.tab_bar {
+  display: flex;
+  width: 80%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid #ea5404;
+  color: #ea5404;
+}
+.tab_bar .tab_bar-cell {
+  flex: 1;
+  line-height: 30px;
+  text-align: center;
+}
+.tab_bar .tab_bar-cell:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 30px;
+  background-color: #ea5404;
+  float: right;
+}
+.tab_bar .tab_bar-cell:last-child:after {
+  content: '';
+  display: none;
+}
+.tab_bar .tab_bar-cell.active {
+  background-color: #ea5404;
+  color: #fff;
+}
+.notice_cells {
+  padding: 0 12px;
+}
+.notice_cells .notice_cell {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 140px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px #e0e0ea;
+  background-color: #fff;
+}
+.notice_cells .notice_cell .notice-title {
+  padding: 5px 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: 30px;
+  border-bottom: 1px solid #d6d7dc;
+}
+.notice_cells .notice_cell .notice-title .n-t-name {
+  flex: 1;
+  padding: 10px 10px;
+}
+.notice_cells .notice_cell .notice-title .n-t-time {
+  color: #646464;
+  display: inline-block;
+  width: 44px;
+  height: 16px;
+  margin: 7px 0;
+  padding: 3px 5px;
+  margin-right: 32px;
+  line-height: 16px;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+}
+.notice_cells .notice_cell .notice-info {
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 10px 0 10px;
+  color: #646464;
+}

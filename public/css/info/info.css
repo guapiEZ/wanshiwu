@@ -1,11 +1,122 @@
 body {
-  background: #7fffd4;
+  background-color: #efeff4;
+  font-family: SimHei;
+  padding: 0;
+  margin: 0;
 }
-body div {
-  border: 1px solid #faebd7;
-  background: #98fb98;
+body .header {
+  display: flex;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e1e1;
 }
-body div a {
-  font-size: 32px;
-  color: #f0ffff;
+body .header .icon-back {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 25%;
+}
+body .header .header_title {
+  flex: 1;
+  padding-right: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+body .header .title_color {
+  color: #ea5404;
+}
+body {
+  background: #efeff4;
+  padding: 0px;
+  margin: 0px;
+  font-family: Microsoft Yahei;
+}
+body .login_box {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  height: 95px;
+  padding: 0 15px;
+  background: #fff;
+}
+body .login_box .login_img {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 64px;
+  height: 64px;
+  margin-top: -32px;
+  border-radius: 50%;
+  background: url("../../img/log in_user-head@2x.png") no-repeat center;
+  background-size: cover;
+}
+body .login_box .login_con {
+  flex: 1;
+  padding-left: 80px;
+  line-height: 95px;
+}
+body .login_box:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  display: block;
+  margin-top: -18px;
+  width: 20px;
+  height: 36px;
+  background: url("../../img/log in_right_icon@2x.png") no-repeat center;
+  background-size: 50%;
+}
+body .link_cell {
+  position: relative;
+  height: 50px;
+  padding-left: 45px;
+  background: #fff url("../../img/content_list_icon01@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+  line-height: 50px;
+  margin-top: 10px;
+}
+body .link_cell:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  display: block;
+  width: 16px;
+  height: 30px;
+  margin-top: -15px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat center;
+  background-size: 50%;
+}
+body .release {
+  background: #fff url("../../img/content_list_icon02@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+}
+body .bespoke {
+  background: #fff url("../../img/content_list_icon03@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+}
+body .annals {
+  background: #fff url("../../img/content_list_icon04@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+}
+body .expire {
+  background: #fff url("../../img/content_list_icon05@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+}
+body .s_box {
+  display: flex;
+  background: #fff;
+  border-top: 1px solid #d6d7dc;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+body .s_box .s_left {
+  flex: 1;
+}
+body .s_box .s_right {
+  flex: 1;
+  float: right;
 }

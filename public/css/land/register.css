@@ -1,0 +1,158 @@
+body {
+  background-color: #efeff4;
+  font-family: SimHei;
+  padding: 0;
+  margin: 0;
+}
+body .header {
+  display: flex;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e1e1;
+}
+body .header .icon-back {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 25%;
+}
+body .header .header_title {
+  flex: 1;
+  padding-right: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+body .header .title_color {
+  color: #ea5404;
+}
+.register_box {
+  background: #fff;
+  margin-top: 10px;
+}
+.register_box .register_text {
+  position: relative;
+  display: flex;
+  padding-left: 45px;
+  height: 50px;
+  line-height: 50px;
+  background: url("../../img/content_ID_icon@2x.png") no-repeat left 12px center;
+  background-size: 6%;
+}
+.register_box .register_text:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  display: block;
+  width: 92%;
+  margin-top: 50px;
+  margin-left: -30px;
+  text-align: center;
+  background: #e1e1e1;
+}
+.register_box .register_text .text {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+.register_box .register_code {
+  margin-top: 1px;
+  position: relative;
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  background: url("../../img/content_verify_icon@2x.png") no-repeat left 16px center;
+  background-size: 0.875em;
+  padding: 0 12px;
+  padding-left: 45px;
+}
+.register_box .register_code:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  display: block;
+  width: 92%;
+  margin-top: 50px;
+  margin-left: -30px;
+  text-align: center;
+  background: #e1e1e1;
+}
+.register_box .register_code .obtain {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #ea5404;
+  color: #fff;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.register_box .register_code .code {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+.register_box .register_password {
+  margin-top: 1px;
+  display: flex;
+  padding-left: 45px;
+  height: 50px;
+  line-height: 50px;
+  background: url("../../img/content_password_icon@2x.png") no-repeat left 14px center;
+  background-size: 1.15em;
+}
+.register_box .register_password:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  display: block;
+  width: 92%;
+  margin-top: 50px;
+  margin-left: -30px;
+  text-align: center;
+  background: #e1e1e1;
+}
+.register_box .register_password .password {
+  border: none;
+  outline: none;
+  padding: 22px 0;
+  flex: 1;
+}
+.register_box .register_status {
+  margin-top: 1px;
+  position: relative;
+  display: flex;
+  padding-left: 45px;
+  height: 50px;
+  line-height: 50px;
+  background: url("../../img/content_position_icon@2x.png") no-repeat left 12px center;
+  background-size: 6%;
+  border-bottom: 1px solid #eee lelel;
+}
+.register_box .register_status .status {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+.button {
+  padding: 12px;
+  margin-top: 33px;
+}
+.button .register_button {
+  width: 351px;
+  height: 44px;
+  background: #c7c7c7;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+.s_box {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.s_box .text {
+  color: #ea5404;
+}

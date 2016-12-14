@@ -1,0 +1,23 @@
+body {
+  background-color: #f5eeea;
+}
+body .logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("../../img/loading_03.png") no-repeat center;
+  background-size: 100px;
+  top: 40%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -100px;
+}
+body .copy {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #7d7b7b;
+  font-family: Microsoft Yahei;
+  font-size: 14px;
+}
