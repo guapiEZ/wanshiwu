@@ -1,0 +1,124 @@
+@import "../header.styl"
+
+.header
+  text-align center
+  line-height 50px
+  .icon-back
+    background #fff
+    font-size 15px
+
+.release_search
+  display flex
+  .search_text
+    flex 5
+    margin 12px
+    padding 10px
+    padding-left 33px
+    border-radius 3px
+    outline none
+    border 0
+    font-size 14px
+    background url("../../img/content_search_icon@2x.png") no-repeat left 6px center #fff
+    background-size 1.2em
+  .search_add
+    flex 2
+    font-size 15px
+    padding 10px
+    padding-left 22px
+    line-height 40px
+    background url("../../img/content_plus_icon@2x.png") no-repeat left 0 center
+    background-size 1.2em
+
+.building_info
+  background-color #ffffff
+  padding 12px
+  .title_block
+    display inline-block
+    height 24px
+    line-height 24px
+    .title_round
+      display inline-block
+      width 5px
+      height 5px
+      background-color #bee949
+      position relative
+      top -4px
+      border-radius 50%
+    .building_title
+      margin 10px
+      font-size 18px
+      color #646464
+  .building_cell
+    display flex
+    height 24px
+    line-height 24px
+    .cell_title
+      display inline-block
+      flex 2
+      font-size 14px
+      text-align right
+      width 20%
+      color #646464
+    .cell_text
+      display inline-block
+      flex 5
+      width 80%
+      font-size 14px
+      color #b4b4b4
+      border-bottom 1px solid #d6d7dc
+
+.housing_info
+  background-color #ffffff
+  padding 12px
+  margin-top 12px
+  .title_block
+    display inline-block
+    height 24px
+    line-height 24px
+    .title_round
+      display inline-block
+      width 5px
+      height 5px
+      background-color #49cde9
+      position relative
+      top -4px
+      border-radius 50%
+    .housing_title
+      margin 10px
+      font-size 18px
+      color #646464
+
+  .radio_title
+    font-size 14px
+    color #646464
+    padding-left 24px
+  .housing_radio
+    padding 10px 24px
+    border-bottom 1px solid #e1e1e1
+    .radio_box
+      display inline-block
+      height 24px
+      line-height 24px
+      font-size 14px
+      .radio_btn
+        display inline-block
+        width 8px
+        height 8px
+        border 1px solid #ea5404
+        border-radius 50%
+        vertical-align bottom
+        margin 6px
+      &.active
+        .icon
+          position relative
+          display inline-block
+          width 2px
+          height 2px
+          margin 2px
+          border 1px solid transparent
+          border-radius 50%
+          background-color #ea5404
+          top -9px
+
+
+

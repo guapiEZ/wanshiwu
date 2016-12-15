@@ -4,26 +4,27 @@ body {
   padding: 0;
   margin: 0;
 }
-body .header {
+.header {
   display: flex;
   height: 50px;
   background-color: #fff;
   border-bottom: 1px solid #e1e1e1;
 }
-body .header .icon-back {
+.header .icon-back {
   display: block;
   width: 50px;
   height: 50px;
   background: url("../../img/nav_back_icon@2x.png") no-repeat center;
   background-size: 25%;
 }
-body .header .header_title {
+.header .header_title {
   flex: 1;
   padding-right: 50px;
   line-height: 50px;
   text-align: center;
+  font-size: 18px;
 }
-body .header .title_color {
+.header .title_color {
   color: #ea5404;
 }
 .register_box {
