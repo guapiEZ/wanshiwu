@@ -33,26 +33,43 @@
 	<div class="title_block"><span class="title_round"></span><span class="housing_title">房源信息</span></div>
 		<div class="radio_title">请选择发布房源属性</div>
 		<div class="housing_radio">
-			<div class="radio_box active"><span  class="radio_btn"><i class="icon"></i></span><span>整层</span></div>
-			<div class="radio_box"><span  class="radio_btn"><i class="icon"></i></span><span>整栋</span></div>
-			<div class="radio_box"><span  class="radio_btn"><i class="icon"></i></span><span>众创空间</span></div>
-			<div class="radio_box"><span  class="radio_btn"><i class="icon"></i></span><span>商务中心</span></div>
-			<div class="radio_box"><span  class="radio_btn"><i class="icon"></i></span><span>创意产业园</span></div>
-			<div class="radio_box"><span  class="radio_btn"><i class="icon"></i></span><span>写字楼</span></div>
-			<div class="radio_box"><span  class="radio_btn"><i class="icon"></i></span><span>工位</span></div>
+			<div class="radio_box active"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>整层</span></div>
+			<div class="radio_box"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>整栋</span></div>
+			<div class="radio_box"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>众创空间</span></div>
+			<div class="radio_box"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>商务中心</span></div>
+			<div class="radio_box"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>创意产业园</span></div>
+			<div class="radio_box"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>写字楼</span></div>
+			<div class="radio_box"><span  class="radio_btn"><i class="icon">&nbsp;</i></span><span>工位</span></div>
 		</div>
 	<div class="housing_cells">
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
-		<div class="housing_cell"><span></span><div></div></div>
+		<div class="housing_cell"><span class="cell_title">房源面积</span><input class="cell_text" type="text" placeholder="20"><span class="cell_unit">㎡</span></div>
+		<div class="housing_cell"><span class="cell_title">房源单价</span><input class="cell_text" type="text" placeholder="6.5"><span class="cell_unit">元/㎡/天</span></div>
+		<div class="housing_cell"><span class="cell_title">交付状态</span><div class="select_box">
+			<div class="select-title" data-val="1">标准交付</div>
+			<ul class="select-list">
+				<li class="select-li" data-val="1">毛坯交付</li>
+				<li class="select-li" data-val="2">标准交付</li>
+				<li class="select-li" data-val="3">简装</li>
+				<li class="select-li" data-val="4">精装</li>
+				<li class="select-li" data-val="5">豪装</li>
+			</ul>
+		</div></div>
+		<div class="housing_cell"><span class="cell_title">交付日期</span><input class="cell_text" type="text" placeholder="2015-06-21"><span class="cell_unit"></span></div>
+		<div class="housing_cell"><span class="cell_title">最短租期</span><input class="cell_text" type="text" placeholder="3年"></div>
+		<div class="housing_cell"><span class="cell_title">付款方式</span><input class="cell_text" type="text" placeholder="押三付一"><span class="cell_unit"></span></div>
+		<div class="housing_cell"><span class="cell_title">是否结用</span><input class="cell_text" type="text" placeholder="一个月"><span class="cell_unit"></span></div>
+		<div class="housing_cell"><span class="cell_title">装修免租</span><input class="cell_text active" type="text" placeholder="一个月"></div>
+		<div class="housing_cell"><span class="cell_title">看房时间</span><input class="cell_text" type="text" placeholder="8:00"><input class="cell_text" type="text" placeholder="20:00"></div>
+		<div class="housing_cell"><div class="cell_title active">房源简介</div><textarea class="cell_text textArea" placeholder="房源简介"></textarea><div class="clear"></div></div>
+		<div class="add_pic">添加图片</div>
+
 	</div>
 </div>
+<div class="footer_btn">
+	<button class="btn_info">确定发布</button>
+</div>
+<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+<script src="../../public/libs/zepto/touch.js"></script>
+<script src="../../public/js/release.js"></script>
 </body>
 </html>

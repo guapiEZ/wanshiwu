@@ -152,7 +152,6 @@ body {
   margin: 6px;
 }
 .housing_info .housing_radio .radio_box.active .icon {
-  position: relative;
   display: inline-block;
   width: 2px;
   height: 2px;
@@ -160,5 +159,136 @@ body {
   border: 1px solid transparent;
   border-radius: 50%;
   background-color: #ea5404;
-  top: -9px;
+}
+.housing_info .housing_cells {
+  padding-right: 5px;
+}
+.housing_info .housing_cells .housing_cell {
+  line-height: 30px;
+  margin-top: 10px;
+}
+.housing_info .housing_cells .housing_cell .cell_title {
+  display: inline-block;
+  color: #b4b4b4;
+  font-size: 14px;
+}
+.housing_info .housing_cells .housing_cell .cell_title.active {
+  position: relative;
+  top: 0;
+  display: block;
+  float: left;
+}
+.housing_info .housing_cells .housing_cell .cell_text {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #efeff4;
+  border-radius: 5px;
+  height: 20px;
+  width: 110px;
+  margin: 0 10px;
+  padding: 5px;
+}
+.housing_info .housing_cells .housing_cell .cell_text.active {
+  width: 74%;
+}
+.housing_info .housing_cells .housing_cell .cell_text.textArea {
+  width: 74%;
+  height: 90px;
+  float: left;
+}
+.housing_info .housing_cells .housing_cell .select_box {
+  float: right;
+  width: 81%;
+  position: relative;
+}
+.housing_info .housing_cells .housing_cell .select_box .select-title {
+  position: relative;
+  height: 30px;
+  padding: 0 10px;
+  background-color: #efeff4;
+  border-radius: 5px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.housing_info .housing_cells .housing_cell .select_box .select-title:before,
+.housing_info .housing_cells .housing_cell .select_box .select-title:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 21px;
+  display: block;
+  width: 2px;
+  height: 10px;
+  background-color: #b4b4b4;
+  transform: rotate(-45deg);
+}
+.housing_info .housing_cells .housing_cell .select_box .select-title:after {
+  right: 15px;
+  transform: rotate(45deg);
+}
+.housing_info .housing_cells .housing_cell .select_box .select-list {
+  display: none;
+  position: absolute;
+  top: 38px;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  border: 1px solid #efeff4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.housing_info .housing_cells .housing_cell .select_box .select-list .select-li {
+  position: relative;
+  height: 40px;
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 14px;
+  background-color: #efeff4;
+  color: #b4b4b4;
+}
+.housing_info .housing_cells .housing_cell .select_box .select-list .select-li:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 10px;
+  display: block;
+  height: 1px;
+}
+.housing_info .housing_cells .housing_cell .select_box .select-list .select-li:last-child:after {
+  display: none;
+}
+.housing_info .housing_cells .add_pic {
+  width: 74px;
+  height: 34px;
+  background: url("../../img/content_plus_icon@2x.png") no-repeat top 20px center;
+  background-size: 30%;
+  background-color: #d4d4d9;
+  font-size: 14px;
+  text-align: center;
+  color: #646464;
+  margin: 22px;
+  padding-top: 40px;
+}
+.housing_info .housing_cells .clear {
+  clear: both;
+}
+.footer_btn {
+  background: #fff;
+  margin-top: 10px;
+  padding: 11px;
+}
+.footer_btn .btn_info {
+  margin: 0 auto;
+  width: 350px;
+  height: 40px;
+  background: #ea5404;
+  border: 0;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
 }
