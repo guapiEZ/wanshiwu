@@ -11,21 +11,24 @@ body {
   border-bottom: 1px solid #e1e1e1;
 }
 .header .icon-back {
+  flex: 1;
   display: block;
   width: 50px;
   height: 50px;
   background: url("../../img/nav_back_icon@2x.png") no-repeat center;
-  background-size: 25%;
+  background-size: 15%;
 }
 .header .header_title {
-  flex: 1;
-  padding-right: 50px;
+  flex: 3;
   line-height: 50px;
   text-align: center;
   font-size: 18px;
 }
 .header .title_color {
   color: #ea5404;
+}
+.header .icon {
+  flex: 1;
 }
 .info_banner {
   padding: 44px 0;
