@@ -25,9 +25,9 @@ app.get('/login',function(req,res){
 
 
 
-//监听端口 9999，用来启动服务
-app.listen(6842,function(){
-	console.log('server run at port 9999')
+//监听端口 16925，用来启动服务
+app.listen(16925,function(){
+	console.log('server run at port 16925')
 });
 
 

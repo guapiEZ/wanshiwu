@@ -50,14 +50,19 @@ body {
 }
 .contract-pic {
   width: 220px;
-  height: 44px;
+  height: 144px;
   background: url("../../img/content_icon_plus@2x.png") no-repeat top 40px center;
   background-size: 25%;
   background-color: #878787;
-  padding-top: 100px;
   text-align: center;
+  line-height: 50px;
   color: #fff;
   border-radius: 3px;
   margin: 11px auto;
   font-size: 14px;
+}
+.contract-pic .choose {
+  width: 100%;
+  height: 80px;
+  opacity: 0;
 }
