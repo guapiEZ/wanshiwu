@@ -1,4 +1,5 @@
 @import "../header.styl"
+@import '../mask.styl'
 
 .register_box
   background #fff
@@ -99,6 +100,55 @@
       border none
       outline none
       flex:1
+  .form-cell
+    padding 0 15px
+    height 50px
+    line-height 50px
+    display flex
+    position relative
+    .form-cell-name
+      padding-left 30px
+      background url(../../img/content_ID_icon@2x.png) no-repeat 0 15px
+      width 50px
+      height 50px
+      line-height 50px
+      background-size 20%
+      flex 1
+    .form-cell-input
+      border none
+      flex 3
+      font-size 14px
+    .cell-iden
+      background url(../../img/content_position_icon@2x.png) no-repeat 0 15px
+      background-size 1.3em
+    .cell-box
+      position absolute
+      right 15px
+      top 30px
+      background #a3a3a3
+      border-radius 5px
+      display none
+      ul
+        padding 0
+        margin 0
+        list-style none
+        width 65px
+        color #fff
+        font-size 14px
+        li
+          text-align center
+          line-height 28px
+          border-bottom 1px solid #fff
+      &:after
+        content ''
+        height 1px
+        background-color #ccc
+        position absolute
+        left 15px
+        right 15px
+        &:first-child:after
+          content ''
+          display none
 
 .button
   padding 12px

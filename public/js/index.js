@@ -3,13 +3,13 @@
  */
 
 $('.index-icon').on('tap', function(){
-	location.href = '../index/index.html'
+	location.href = '../home/home.html'
 });
 $('.order-icon').on('tap', function(){
-	location.href = '../order/order.html'
+	location.href = '../bespeak/order.html'
 });
 $('.news-icon').on('tap', function(){
-	location.href = '../msg/msg.html'
+	location.href = '../notice/news.html'
 });
 $('.info-icon').on('tap', function(){
 	location.href = '../info/info.html'
