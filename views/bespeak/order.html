@@ -104,13 +104,17 @@
 			$(this).find('.delete' ).hide();
 		});
 		$('.order-cell' ).on('tap', function(){
-			location.href = '../order/booking_detail.html';
+			location.href = 'bespeak_detail.html';
 		});
 
 		$('.order-btn' ).on('tap', function(e){
 			e.stopPropagation();
 			$(this ).addClass('active' ).text('已接单，待反馈');
-		})
+		});
+
+		$('.publish_icon').on('tap', function(){
+			location.href = '../release/publish.html'
+		});
 	</script>
 </body>
 </html>

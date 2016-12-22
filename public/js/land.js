@@ -1,33 +1,38 @@
+/**
+ * Created by Administrator on 2016/12/14 0014.
+ */
+
 
 
 function testVal(){
 	if($('#username').val() != '' && $('#password').val() != ''){
-		$('.land_button').css('background' , '#ea5404' ).on('tap', function(){
-			location.href = '../home/home.html'
+		$('#btn').css('background' , '#ea5404' ).on('tap', function(){
+			location.href = '../info/info_agent.html'
 		})
 
 	}
 }
-$('.s_left').on('tap', function(){
-	location.href = 'register.html'
+$('.footer_reg').on('tap', function(){
+	location.href = '../login/register.html'
 });
 
-$('.s_right').on('tap', function(){
-	location.href = 'passwd.html'
+$('.footer_pass').on('tap', function(){
+	location.href = '../login/passwd.html'
 });
 
 function testReg(){
-	if($('#tel').val() != '' && $('#code').val() != '' && $('#pass').val() != '' && $('#passed').val() != '' && $('#iden').val() != ''){
-		$('.register_button').css('background' , '#ea5404' ).on('tap', function(){
+	if($('#tel').val() != '' && $('#code').val() != '' && $('#pass').val() != '' && $('#passwd').val() != '' && $('#iden').val() != ''){
+		$('.btn_reg').css('background' , '#ea5404' ).on('tap', function(){
 			$('.mask' ).css('background','#ccc').show();
 			$('.publish-alert' ).show();
 			$('.confirm').on('tap', function(){
-				location.href = 'land.html'
+				location.href = '../info/info.html'
 			});
 		})
 	}
 }
 
+//选择身份
 
 $('.iden').on('tap', function(){
 	$('.cell-box' ).toggle();

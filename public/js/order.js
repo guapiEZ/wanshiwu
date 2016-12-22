@@ -35,10 +35,10 @@ $('.booking-room' ).on('tap', function(){
 	$('.mask' ).css('background','#ccc').show();
 	$('.booking-alert' ).show();
 	$('.sure' ).on('tap', function(){
-		location.href = '../order/order_detail.html'
+		location.href = '../bespeak/detail.html'
 	});
 	$('.cancel' ).on('tap', function(){
-		location.href = '../order/order.html'
+		location.href = '../bespeak/order.html'
 	})
 });
 
@@ -78,13 +78,13 @@ $('.cancel-upload').on('tap', function(){
 
 //改期达成取消
 $('.change_btn').on('tap', function(){
-	location.href = '../order/booking_change.html'
+	location.href = '../bespeak/bespeak_change.html'
 });
 $('.reach_btn').on('tap', function(){
-	location.href = '../order/upload_contract.html'
+	location.href = '../bespeak/bespeak_contract.html'
 });
 $('.cancel_btn').on('tap', function(){
-	location.href = '../order/reserve_cancel.html'
+	location.href = '../bespeak/bespeak_cancel.html'
 });
 
 
@@ -104,6 +104,6 @@ $('.time-house' ).on('tap', function(){
 });
 //接单按钮
 $('.order-btn').on('tap', function(){
-	location.href = '../order/order_detail.html'
+	location.href = '../bespeak/detail.html'
 });
 

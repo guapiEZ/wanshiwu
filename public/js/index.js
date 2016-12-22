@@ -12,5 +12,8 @@ $('.news-icon').on('tap', function(){
 	location.href = '../notice/news.html'
 });
 $('.info-icon').on('tap', function(){
-	location.href = '../info/info.html'
+	location.href = '../info/info_agent.html'
+});
+$('.publish_icon').on('tap', function(){
+	location.href = '../release/publish.html'
 });

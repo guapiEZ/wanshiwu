@@ -69,6 +69,7 @@ body {
   margin-top: 33px;
 }
 .button .land_button {
+  margin: 0 auto;
   width: 351px;
   height: 44px;
   background: #c7c7c7;
