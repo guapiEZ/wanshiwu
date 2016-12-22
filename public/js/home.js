@@ -152,12 +152,12 @@ $(window).on('swipeDown', function(){
 });
 
 $('.select-city').on('tap', function(){
-	location.href = '../index/select_city.html'
+	location.href = '../home/home_city.html'
 });
 
 
 $('.publish_icon').on('tap', function(){
-	location.href = '../publish/publish.html'
+	location.href = '../release/publish.html'
 });
 
 //返回顶部
