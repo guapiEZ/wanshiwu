@@ -12,12 +12,12 @@ function testVal(){
 
 	}
 }
-$('.footer_reg').on('tap', function(){
-	location.href = '../login/register.html'
+$('.s_left').on('tap', function(){
+	location.href = '../land/register.html'
 });
 
-$('.footer_pass').on('tap', function(){
-	location.href = '../login/passwd.html'
+$('.s_right').on('tap', function(){
+	location.href = '../land/passwd.html'
 });
 
 function testReg(){
