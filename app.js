@@ -58,3 +58,15 @@ app.use('/weixin', function(req, res){
 		res.send("验证失败").end();
 	}
 });
+
+var proxy = require('http-proxy-middleware');
+
+app.use('/api',proxy({
+	target:'http://guanjp.com:9805',
+	changeOrigin:true,
+	ws:true,
+	cookieRewrite:true,
+	pathRewrite:{
+		'^/api':'/'
+	}
+}));
