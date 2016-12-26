@@ -64,9 +64,20 @@
 </div>
 
 <div class="footer">
-	<div class="footer-text">改期</div>
-	<div class="footer-text">达成</div>
-	<div class="footer-text">取消</div>
+	<div class="footer-text" id="date">改期</div>
+	<div class="footer-text" id="Reach">达成</div>
+	<div class="footer-text" id="cancel">取消</div>
 </div>
+<script>
+	$('#date').on('tap', function(){
+		location.href = '../bespeak/bespeak_change.html'
+	});
+	$('#Reach').on('tap', function(){
+		location.href = '../bespeak/bespeak_detail.html'
+	});
+	$('#cancel').on('tap', function(){
+		location.href = '../bespeak/bespeak_cancel.html'
+	});
+</script>
 </body>
 </html>
