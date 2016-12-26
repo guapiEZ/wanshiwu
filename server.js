@@ -6,6 +6,8 @@ var express = require('express');
 //实例 express
 var app	= express();
 
+var proxy = require('http-proxy-middleware');
+
 console.log(__dirname);
 //拼接物理路径，用来指定虚拟路径的访问
 var viewsPath = path.join(__dirname,'views');
@@ -59,8 +61,9 @@ app.use('/weixin', function(req, res){
 	}
 });
 
-var proxy = require('http-proxy-middleware');
 
+
+/*
 app.use('/api',proxy({
 	target:'http://guanjp.com:9805',
 	changeOrigin:true,
@@ -69,4 +72,4 @@ app.use('/api',proxy({
 	pathRewrite:{
 		'^/api':'/'
 	}
-}));
+}));*/
