@@ -48,7 +48,7 @@ $('.icon-back').on('tap', function(){
 		$('.cancel-alert' ).hide();
 	});
 	$('.sure' ).on('tap', function(){
-		location.href = '../release/release_detail.html'
+		location.href = '../release/publish.html'
 	})
 });
 
