@@ -22,7 +22,7 @@ $('.s_right').on('tap', function(){
 
 function testReg(){
 	if($('#tel').val() != '' && $('#code').val() != '' && $('#pass').val() != '' && $('#passwd').val() != '' && $('#iden').val() != ''){
-		$('.btn_reg').css('background' , '#ea5404' ).on('tap', function(){
+		$('.register_button').css('background' , '#ea5404' ).on('tap', function(){
 			$('.mask' ).css('background','#ccc').show();
 			$('.publish-alert' ).show();
 			$('.confirm').on('tap', function(){
