@@ -173,6 +173,6 @@ $('.collect' ).on('tap', function(){
 
 //点击搜索
 $('.search_input').on('tap', function(){
-	location.href = '../index/index_search.html'
+	location.href = '../home/home_search.html'
 });
 
