@@ -104,6 +104,6 @@ $('.time-house' ).on('tap', function(){
 });
 //接单按钮
 $('.order-btn').on('tap', function(){
-	location.href = '../bespeak/bespeak_detail.html'
+	location.href = '../bespeak/bespeak.html'
 });
 

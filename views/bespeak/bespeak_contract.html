@@ -14,12 +14,19 @@
 </head>
 <body>
 <header class="header">
-	<div class="icon-back">取消</div>
+	<div class="icon-back" ontouchend="javascript:history.back()">取消</div>
 	<div class="header_title">上传合同书</div>
 	<div class="icon-back color">上传</div>
 </header>
 <div class="contract-title">请按照要求添加照片</div>
 <div class="contract-pic"><input type="file" class="choose">合同第一页</div>
 <div class="contract-pic"><input type="file" class="choose">合同最后一页</div>
+<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+<script src="../../public/libs/zepto/touch.js"></script>
+<script>
+	$('.color' ).on('tap', function(){
+		location.href = '../bespeak/bespeak_room.html'
+	})
+</script>
 </body>
 </html>

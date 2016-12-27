@@ -81,10 +81,12 @@ body {
 }
 .bespoke-box .text-right {
   text-align: right;
-  width: 16em;
+  width: 15em;
   float: left;
-  height: 36px;
-  line-height: 36px;
+  height: 1px;
+  line-height: 1px;
+  margin-top: 18px;
+  font-size: 14px;
 }
 .bespoke-banner {
   margin-top: 1px;
