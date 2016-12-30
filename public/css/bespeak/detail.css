@@ -66,9 +66,15 @@ body {
 }
 .slider-container {
   position: relative;
-  width: 375px;
-  height: 330px;
+  width: 100%;
+  height: 240px;
   overflow: hidden;
+}
+.slider-container .slider-block {
+  width: 100%;
+  height: 240px;
+  background: url("../../img/banner_img02@2x.png") no-repeat center;
+  background-size: 100%;
 }
 .slider-container .slider-text {
   position: absolute;
@@ -307,9 +313,11 @@ body {
   padding: 0 12px;
   border-bottom: 1px solid #d6d7dc;
 }
-.building-info .building-img img {
-  width: 351px;
-  margin-top: 15px;
+.building-info .building-img .img {
+  background: url("../../img/content_img_home02@2x.png") no-repeat center top 20px;
+  background-size: 100%;
+  width: 100%;
+  height: 230px;
 }
 .building-info .building-img .img-info {
   font-size: 12px;

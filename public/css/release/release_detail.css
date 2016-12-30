@@ -46,9 +46,15 @@ body {
 }
 .slider-container {
   position: relative;
-  width: 375px;
+  width: 100%;
   height: 240px;
   overflow: hidden;
+}
+.slider-container .slider-block {
+  width: 100%;
+  height: 240px;
+  background: url("../../img/banner_img03@2x.png") no-repeat center;
+  background-size: 100%;
 }
 .slider-container .slider-text {
   position: absolute;

@@ -50,7 +50,6 @@ body {
 }
 .info_cells .info-cell .info-name {
   flex: 4;
-  font-size: 1em;
   color: #646464;
   font-size: 14px;
 }
@@ -76,25 +75,23 @@ body {
   background-size: 15%;
 }
 .info_cells .image-cell {
+  min-height: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 0 15px;
-  padding-top: 22px;
+  margin-top: 20px;
+  padding: 0 10px;
 }
-.info_cells .image-cell .image-block .box-img {
-  width: 100px;
-  height: 64px;
+.info_cells .image-cell .image-block {
+  width: 30%;
+  height: 63px;
   background: #878787;
-  border-radius: 5px;
-}
-.info_cells .image-cell .image-block .title {
-  margin: 0;
-  line-height: 30px;
   text-align: center;
-  color: #646464;
-  font-size: 14px;
+  line-height: 63px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
 }
 .mask {
   width: 100%;

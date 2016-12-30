@@ -34,11 +34,12 @@
 		</ul>
 	</div>
 
-
-
-
 	<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
 	<script src="../../public/libs/zepto/touch.js"></script>
-
+	<script>
+		$(".search-li" ).on("tap",function(){
+			$(".search-input" ).val($(this ).text())
+		})
+	</script>
 </body>
 </html>
